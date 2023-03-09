@@ -1,0 +1,118 @@
+body {
+	
+	margin: 0;
+	padding: 0;
+	background-color:#7ad1bab1;
+}
+
+header {
+	background-color: #333333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	margin: 20px;
+    
+}
+#c{
+	background-image: url("car.png");
+	background-size: cover;
+	float: right;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+.b{
+    
+    font-size: small;
+    padding-top: 3cm;
+    padding-bottom: 3cm;
+   
+}
+.sd{
+    display: inline;
+	padding: 20px 20px;
+}
+.hy{
+    display: inline;
+	padding: 20px 20px;
+}
+.su{
+    display: inline;
+	padding: 20px 20px;
+}
+.ei{
+    display: inline;
+	padding: 20px 20px;
+}
+.el{
+    display: inline;
+	padding: 20px 20px;
+}
+.ft{
+	text-align: left;
+	padding: 20px 20px;
+}
+#a1{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    margin-left: 500px ;
+}
+#a2{
+    font-size: 20px;
+    color: black;
+}
+#a3{
+    font-size: 20px;
+    color: black;
+    margin-left: 50px;
+}
+#a4{
+    font-size: 20px;
+    color: black;
+    margin-left: 500px;
+}
+
+#a5{
+    text-align: left;
+    display: flex;
+}
+#a6{
+    margin-left: 100px;
+}
