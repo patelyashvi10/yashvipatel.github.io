@@ -9,6 +9,7 @@ header {
 	background-color: #333333;
 	color: #fff;
 	padding: 10px;
+	text-align: center;
 }
 
 nav ul {
@@ -20,6 +21,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	margin-right: 10px;
+	
 }
 
 nav ul li a {
@@ -28,11 +30,13 @@ nav ul li a {
 }
 
 main {
-	margin: 20px;
-    
+	margin-top: 10px;
+	margin-bottom: 150px;
+    padding-left: 7%;
+	padding-right: 7%;
 }
 #c{
-	background-image: url("car.png");
+	
 	background-size: cover;
 	float: right;
 }
@@ -40,8 +44,15 @@ main {
 section {
 	margin-bottom: 20px;
 }
+h1{
+	font-size: 36px;
+	margin-bottom: 20px;
+	
+	text-align: center;
+	text-decoration: solid;
+}
 
-h1, h2, h3 {
+h2, h3 {
 	font-size: 36px;
 	margin-bottom: 10px;
 }
@@ -85,8 +96,8 @@ footer {
 	padding: 20px 20px;
 }
 .ft{
-	text-align: left;
-	padding: 20px 20px;
+	text-align: center;
+	padding: 50px 20px;
 }
 #a1{
     position: absolute;
@@ -116,3 +127,125 @@ footer {
 #a6{
     margin-left: 100px;
 }
+.ab{
+	margin-top: 30px ;
+	margin-left: 250px;
+	width: 750px;
+}
+.suv{
+    display:flex;
+	text-align: center;
+	margin-top: 50px;
+}
+.cc{
+	text-align: center;
+	margin-top: 30px;
+}
+.x{
+  width: 50%;
+  float: left;
+  overflow:none;
+}
+.y{
+	width: 33%;
+	float: right;
+	overflow:none;
+  }
+.row{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+ 
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #6ac2a2;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #8fc592;
+  }
+
+  .ct {
+	border-radius: 5px;
+	background-color: #d2dfe1;
+	padding: 10px;
+  }
+  
+  
+  .column {
+    margin-left: 25%;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
+ 
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+nav ul ul {
+	position: absolute;
+	background-color: #636775;
+	padding: 0;
+	text-align: left;
+	display: none;
+}
+
+nav ul ul li {
+	border: 1px solid #3a3a47;
+	display: block;
+	width: 8em;
+	padding-left: 1em;
+	margin-left: 0;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav li {
+	padding: 0.5em;
+	display: inline-block;
+}
+
+
+
+
+
+
+
